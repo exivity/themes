@@ -5,12 +5,20 @@
 }
 
 *:not(.ex-icon) {
-   font-family: 'Share Tech Mono', monospace !important;
-   color: white !important;
+    font-family: 'Share Tech Mono', monospace !important;
+}
+
+.kVBRDM {
+    background-color: var(--app-bg-colour);
+}
+
+.ex-app {
+    background: initial;
 }
 
 html {
     background-image: url('https://wallpaperaccess.com/full/39608.jpg');
+    background-attachment: fixed;
     background-size: cover;
 }
 
