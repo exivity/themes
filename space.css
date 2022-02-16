@@ -1,17 +1,11 @@
+/* override font */
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
-
-:root {
-    --app-colour: #9c9c9c;
-}
 
 *:not(.ex-icon) {
     font-family: 'Share Tech Mono', monospace !important;
 }
 
-.kVBRDM {
-    background-color: var(--app-bg-colour);
-}
-
+/* wallpaper */
 .ex-app {
     background: initial;
 }
@@ -22,10 +16,26 @@ html {
     background-size: cover;
 }
 
-.sc-fBuWsC, .ex-widget {
-    background: rgba(255,255,255,0.2) !important;
+/* rocket icon */
+header > div:nth-child(1) {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/124/124584.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
-.ex-toolbar {
-    background: none !important;
+header > div:nth-child(1) img {
+    display: none;
+}
+
+/* nasa logo */
+header > div:nth-child(2) {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/2560px-NASA_Worm_logo.svg.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+header > div:nth-child(2) svg {
+    display: none;
 }
